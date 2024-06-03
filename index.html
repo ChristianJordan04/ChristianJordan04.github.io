@@ -3,11 +3,34 @@
 <body>
     <div class="div-1">
         <h1 style="text-align: center;">Celianne Zaragoza</h1>
-        <p style="text-align: center;">I'm hosted with GitHub Pages.</p>
+        <p style="text-align: center;">Artist</p>
     </div>
+
+    <div class="row">
+        <div class="column">
+          <img src="images/portrait.png" alt="self portrait" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="images/forest.png" alt="forest" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="images/egg.png" alt="forest" style="width:100%">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+          <img src="images/cup.png" alt="self portrait" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="images/table.png" alt="forest" style="width:100%">
+        </div>
+    </div>
+
+    <div class="div-1">
+        <p style="text-align: left;"> © Celianne Jamero, 2024</p>
     <div>
-        
-    </div>
+
 </body>
 </html>
 
@@ -21,4 +44,16 @@
     .div-1 {
         background-color: rgb(184, 153, 184);
     }
+
+    .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 </style>
